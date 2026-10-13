@@ -71,3 +71,9 @@ src-tauri/src/               後端（Rust + Tauri 2）
 | M | 在目前位置新增片段 |
 | I / O | 把選取片段的起點 / 終點設在目前位置 |
 | Delete | 刪除選取片段 |
+
+## 授權
+
+本專案以 [MIT License](LICENSE) 釋出。
+
+隨附的 FFmpeg（`npm install` 時下載至 `src-tauri/bin/`，並打包進安裝檔）為 LGPL 版本，以動態連結 DLL 形式使用，其授權條款見 `src-tauri/bin/FFMPEG-LICENSE.txt`，原始碼可於 https://ffmpeg.org 取得。FFmpeg 不在本專案的 MIT 授權範圍內。
